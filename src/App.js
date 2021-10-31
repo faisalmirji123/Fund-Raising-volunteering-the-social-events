@@ -6,7 +6,10 @@ import { Navbar } from 'react-bootstrap'
 function App(){
   return(
     <div className="App">
-      <Navbar>
+      <Navbar bg="orange" variant="dark">
+        <Navbar.Brand>
+          <img src="./images/photos.jpg" alt=""/>
+        </Navbar.Brand>
         </Navbar>
       </div>
   )
