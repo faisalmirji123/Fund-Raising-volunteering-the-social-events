@@ -1,15 +1,25 @@
 import React from 'react';
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.css'
-import { Navbar } from 'react-bootstrap'
+import { Nav, Navbar } from 'react-bootstrap'
 
 function App(){
   return(
-    <div className="App">HI
-      <Navbar bg="orange" variant="dark">
+    <div className="App">
+      <Navbar bg="myRed" variant="dark">
         <Navbar.Brand>
-          <img src="./images/photos.jpg" alt=""/>
+          <img src={"./images/plants.jpg"}/>About
+        
         </Navbar.Brand>
+        <Nav>
+          <Nav.Link href="Events">Events </Nav.Link>
+          <Nav.Link href="Volunteers">Volunteers </Nav.Link>
+          <Nav.Link href="Donations">Donations </Nav.Link>
+          <Nav.Link className="Sign in">
+            Login/Register
+          </Nav.Link>
+
+          </Nav>
         </Navbar>
       </div>
   )
