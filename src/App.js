@@ -12,10 +12,10 @@ function App() {
             
         </Navbar.Brand>
         <Nav>
-          <Nav.Link className="About">About</Nav.Link>
-          <Nav.Link className="Events">Events </Nav.Link>
-          <Nav.Link className="Volunteers">Volunteers </Nav.Link>
-          <Nav.Link className="Donations">Donations </Nav.Link>
+          <Nav.Link className="About"><h2>About</h2></Nav.Link>
+          <Nav.Link className="Events"><h2>Events</h2> </Nav.Link>
+          <Nav.Link className="Volunteers"><h2>Volunteers</h2> </Nav.Link>
+          <Nav.Link className="Donations"><h2>Donations</h2> </Nav.Link>
           <Nav.Link className="Sign "><h2>Login/Register</h2></Nav.Link>
         </Nav>
       </Navbar>
