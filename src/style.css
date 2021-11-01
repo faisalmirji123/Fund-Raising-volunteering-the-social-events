@@ -1,9 +1,26 @@
-/* h1, p {
+h1, p {
   font-family: Lato;
-} */
-.bg-myRed{
-  background-color: crimson;
 }
-.Sign in{
-  
+.bg-myRed{
+  background-color: rgba(220, 20, 60, 0.637);
+}
+
+.Events{
+ padding: 10%;
+
+}
+.Volunteers{
+ padding: 10%;
+
+}
+.Donations{
+ padding: 10%;
+
+}
+
+.About{
+  padding: 10%;
+}
+.Sign {
+  padding: 10%;
 }
