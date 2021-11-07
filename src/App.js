@@ -6,7 +6,6 @@ import { Nav, Navbar } from 'react-bootstrap';
 function App() {
   return (
     <div className="App">
-      {/* <div className="container"> */}
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand>
           <img src={'./images/plants.jpg'} />
@@ -30,9 +29,6 @@ function App() {
         </Nav>
       </Navbar>
     </div>
-    
-
-      // </div>
   );
 }
 export default App;
