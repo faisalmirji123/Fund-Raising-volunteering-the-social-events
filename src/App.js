@@ -31,6 +31,7 @@ function App() {
           </Nav.Link>
         </Nav>
       </Navbar>
+      <br />
     </div>
   );
 }
