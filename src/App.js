@@ -23,9 +23,7 @@ function App() {
           <Nav.Link className="Donations">
             <h2>Donations</h2>{' '}
           </Nav.Link>
-          <Nav.Link className="Donations">
-            <h2>Donations</h2>{' '}
-          </Nav.Link>
+
           <Nav.Link className="Sign ">
             <h2>Login/Register</h2>
           </Nav.Link>
