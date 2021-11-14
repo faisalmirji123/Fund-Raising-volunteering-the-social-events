@@ -1,31 +1,59 @@
-h1, p {
+h1,
+p {
   font-family: Lato;
 }
-.bg-myRed{
+.bg-myRed {
   background-color: rgba(220, 20, 60, 0.637);
 }
 
-.Events{
- padding: 5%;
- 
-
-}
-.Volunteers{
- padding: 5%;
- 
-
-}
-.Donations{
- padding: 5%;
- 
-
-}
-
-.About{
+.Events {
   padding: 5%;
-  
+}
+.Volunteers {
+  padding: 5%;
+}
+.Donations {
+  padding: 5%;
+}
+
+.About {
+  padding: 5%;
 }
 .Sign {
   padding: 5%;
-  
 }
+/* const [firstName, setFirstName] = useState("");
+const [lastName, setLastName] = useState("");
+
+const [firstNameErr, setFirstNameErr] = useState({});
+const [lastNameErr, setLastNameErr] = useState({});
+
+const onSubmit = (e) => {
+  e.preventDefault();
+  const isValid = formValidation();
+};
+
+const formValidation = () => {
+  const firstNameErr = {};
+  const lastNameErr = {};
+  let isValid = true;
+  if (firstName.trim().length < 3) {
+    firstNameErr.firstNameShort = "First name is too Short";
+    isValid = false;
+  }
+  if (firstName.trim().length > 10) {
+    firstNameErr.firstNameLong = "First name is too LONG";
+    isValid = false;
+  }
+  if (!lastName.includes("123")) {
+    lastNameErr.lastName123 = "last name must include 123";
+    isValid = false;
+  }
+  console.log(firstName);
+  isValid(true);
+}; */
+/* md={{ span: 7, offset: 3 }} */
+
+
+/* xs={{ order: 12 }} */
+/* className="col-lg-6 order-1 order-lg-2 header-img */
