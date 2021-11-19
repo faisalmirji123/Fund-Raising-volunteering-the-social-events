@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Navbar bg="dark" variant="light">
         <Navbar.Brand>
-          <img src={'./images/plants.jpg'} />
+          hello
         </Navbar.Brand>
         <Nav>
           <Nav.Link className="About">
