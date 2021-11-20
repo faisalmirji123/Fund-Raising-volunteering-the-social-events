@@ -1,6 +1,6 @@
 import React from 'react';
 
 function footer() {
-  return <>hello</>;
+  return <></>;
 }
 export default footer;
