@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Navbar bg="dark" variant="light">
         <Navbar.Brand>
-          hello
+          hEY
         </Navbar.Brand>
         <Nav>
           <Nav.Link className="About">
